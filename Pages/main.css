@@ -194,14 +194,14 @@ footer li{
 
 .contact-form{
     background-color: beige;
-    width: 200px;
-    height: 100px;
+    width: 600px;
+    height: 300px;
     font-size: 11px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
-    padding: 70px 0px;
+    padding: 70px 100px;
 
 }
 .enviar {
