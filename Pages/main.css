@@ -4,7 +4,8 @@
 }
 
 body { 
-    background-color: white;
+    background-image: url(../Imagenes/floor-tile.png);
+    font-family: "Open Sans", Helvetica, sans-serif;
     color: rgba(92, 8, 8, 0.753);
     width: 95vw;
 
@@ -21,9 +22,10 @@ header{
     grid-area: header;
 }
 .header{
+
     color: rgba(92, 8, 8, 0.753);
     font-style: italic;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Open Sans", Helvetica, sans-serif;
     padding: 2px;
     margin: 2px;
     display: flex;
@@ -46,7 +48,7 @@ header{
     padding: 10px 0px;
 }
 nav{
-    background-image: url(../Imagenes/floor-tile.png);
+    background-color: white;
     text-align: start;
     grid-area: nav;
     
@@ -75,6 +77,20 @@ main{
     margin: 1px;
     padding: 1px;
 }
+.carousel-slide img{
+    height: 450px;
+
+}
+
+.carousel-caption p{
+    font-size: 30px;
+    color:rgba(92, 8, 8, 0.753)
+
+}
+.carousel-caption h5{
+    color: rgba(92, 8, 8, 0.753);
+}
+
 .hist{
     font-style: italic;
     font-family: 'Anek Tamil', sans-serif;  
@@ -334,22 +350,22 @@ footer li{
     }
     
     .header-logo {
-        width: 300px;
+        width: 150px;
         height: auto;
         align-items: initial;
         
     }
     .header-slogan{
      
-        font-size: 50px;
+        font-size: 20px;
     }
     .navbar{
-        font-size: 25px;
+        font-size: 20px;
         padding: 0px 5px;
         transition: all .3seg ease-in-out;
     }
     .navbar:hover {
-        font-size: 30px;
+        font-size: 25px;
         color: black;    
         
     }
